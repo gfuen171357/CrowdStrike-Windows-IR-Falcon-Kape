@@ -27,8 +27,10 @@ on the CrowdStrike Endpoint are deleted for quick response.
 1. Open PowerShell in an Administrative Prompt
 2. Download the PSFalcon-Kape-Forensics.ps1 to Local computer
 3. Run the PSFalcon-Kape-Foresnics.ps1 in PowerShell
+
 ![ PSFalcon Kape Forensics Usage](/PSFalcon-KapeUse.png)
-5. After completion confirm in Azure Storage account that Evidence has been uploaded to Blob Storage.
+4. After completion confirm in Azure Storage account that Evidence has been uploaded to Blob Storage.
+
 ![ Azure CrowdStrike IR Evidence](/Azure-KapeUse.png)
 
 
