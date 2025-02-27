@@ -3,6 +3,11 @@
 The following script is meant to perform quick Incident Response on hosts Onboarded with CrowdStrike within
 the Luminator Organization.
 
+The purpose of this script is to using PSFalcon to run Remote commands on CrowdStrike Endpoints and run the tool "Kape"
+for Incident Response and data collection zipping up the results. Afterwards, once KAPE is finished running the zipped results
+folder is uploaded to a Luminator controller Azure Blob storage where the evidence is collected and the files/folders created
+on the CrowdStrike Endpoint are deleted for quick response.
+
 ![CrowdStrike PS Falcon Kape Forensics](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo.png) 
 
 ![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/psfalcon)
