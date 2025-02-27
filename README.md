@@ -8,6 +8,19 @@ the Luminator Organization.
 ![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/psfalcon)
 ![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/psfalcon)
 
-## Example Usage
+## Requirements
+
+* An active Falcon subscription for the appropriate modules
+* PowerShell 5.1+ (Windows), PowerShell 6+ (Linux/MacOS)
+* A Falcon [OAuth2 API Client](https://falcon.crowdstrike.com/support/api-clients-and-keys) with appropriate roles
+* Powershell Module 'PSFalcon' installed
+* Powershell Module 'AZ' installed
+* Azure storage account key stored in Environment Variable "ASU"
+
+## Steps to use PSFalcon-Kape-Forensics.ps1
+
+1. blha
+2. blah
+3. kdfsl
 
 ![ PSFalcon Kape Forensics Usage](/PSFalcon-KapeUse.png)
